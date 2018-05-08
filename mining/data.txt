@@ -9473,3 +9473,43 @@ France-Ligue_2,SC Bastia,Nancy,
 France-Ligue_2,Nimes,GFC Ajaccio,4,0
 France-Ligue_2,Lorient,Bourg en Bresse Peronnas,6,0
 France-Ligue_2,Brest,Quevilly,2,0
+England-Premier_League,AFC Bournemouth,Swansea City,1,0
+England-Premier_League,Leicester City,West Ham United,0,2
+England-Premier_League,Watford,Newcastle United,2,1
+England-Premier_League,Stoke City,Crystal Palace,1,2
+England-Premier_League,Everton,Southampton,1,1
+England-Premier_League,West Bromwich Albion,Tottenham Hotspur,1,0
+Germany-1__Bundesliga,Borussia Dortmund,Mainz 05,1,2
+Germany-1__Bundesliga,RasenBallsport Leipzig,Wolfsburg,4,1
+Germany-1__Bundesliga,Eintracht Frankfurt,Hamburger SV,3,0
+Germany-1__Bundesliga,Borussia Moenchengladbach,Freiburg,3,1
+Germany-1__Bundesliga,Hannover 96,Hertha Berlin,3,1
+Germany-1__Bundesliga,VfB Stuttgart,Hoffenheim,2,0
+Germany-1__Bundesliga,Augsburg,Schalke 04,1,2
+Germany-1__Bundesliga,Werder Bremen,Bayer Leverkusen,0,0
+Germany-1__Bundesliga,FC Cologne,Bayern Munich,1,3
+Italy-Serie_A,AC Milan,Hellas Verona,4,1
+Italy-Serie_A,Juventus,Bologna,3,1
+Portugal-Primeira_Liga,Sporting CP,Benfica,0,0
+Portugal-Primeira_Liga,Belenenses,Portimonense,3,2
+Portugal-Primeira_Liga,Tondela,Vitoria de Guimaraes,1,4
+Russia-Premier_League,Spartak Moscow,FC Rostov,2,0
+Russia-Premier_League,Lokomotiv Moscow,Zenit St. Petersburg,1,0
+Russia-Premier_League,Tosno,Dinamo Moscow,1,2
+Russia-Premier_League,SKA-Khabarovsk,FC Krasnodar,0,1
+Spain-Primera_Division,Celta Vigo,Deportivo La Coruna,1,1
+Spain-Primera_Division,Athletic Bilbao,Real Betis,2,0
+Spain-Primera_Division,Girona,Eibar,1,4
+Spain-Primera_Division,Villarreal,Valencia,1,0
+Argentina-Superliga,Talleres,Huracan,0,0
+Argentina-Superliga,Argentinos Juniors,Godoy Cruz,1,2
+Argentina-Superliga,San Lorenzo,Belgrano,2,0
+Argentina-Superliga,Newells Old Boys,Defensa y Justicia,1,0
+Argentina-Superliga,San Martin San Juan,Velez Sarsfield,0,2
+Argentina-Superliga,Arsenal Sarandi,Rosario Central,4,0
+Australia-A_League_Playoff,Newcastle Jets,Melbourne Victory,0,1
+Austria-Bundesliga,Mattersburg,Altach,0,1
+Austria-Bundesliga,Austria Wien,Admira Moedling,0,0
+Austria-Bundesliga,LASK,Rapid Wien,0,2
+Austria-Bundesliga,SKN St. Poelten,Wolfsberger AC,0,1
+Belgium-First_Division_A_Playoff_EL_Grp__A,Lierse,Oud-Heverlee,2,2
