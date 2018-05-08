@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-navbar color="menu">
+    <ion-title>
+        <ion-label class = "dateMenu" text-center>
+          <button color="energized" ion-button clear icon-only (click)="changeDate(-1)" [disabled]="isMaxed(false)">
+           <ion-icon name="md-arrow-dropleft"></ion-icon>
+          </button>
+          <button color="energized" class= "date" ion-button clear> {{currentDate | amDateFormat:'dddd, DD/MM/YY'}} </button>
+          <button color="energized" ion-button clear icon-only (click)="changeDate(1)" [disabled]="isMaxed(true)">
+            <ion-icon xlarge name="md-arrow-dropright"></ion-icon>
+          </button>
+        </ion-label>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="master" padding>
+  <ion-input style="background-color:white" [(ngModel)]="filter">{{filter}}</ion-input>
+  <ion-list *ngIf = "matches">
+    <ion-item-sliding class="master" *ngFor = "let match of filterMatches()">
+      <ion-item class="master" >
+        <ion-label class="master">
+          {{match.Home}} VS {{match.Away}}
+          <span *ngIf="match.Score">
+          {{match.Score[0]+"-"+match.Score[1]}}
+        </span>
+          <ion-item no-lines text-center class="master">
+            <ion-label [ngClass]="[hasFinished(match.Score)?getResultColor(match.Score,top.Key):getColor(top.Value)]" *ngFor = "let top of getTopThree(match)" style="color:black; border-style: solid">
+            {{top.Key}} ({{fixedValue(top.Value)}}%)
+            </ion-label>
+          </ion-item>
+        </ion-label>
+      </ion-item>
+      <ion-item-options side="right">
+          <ion-label class="sideOdds" [ngClass]="[hasFinished(match.Score)?getResultColor(match.Score,odd.Key):getColor(odd.Value)]" text-wrap text-center *ngFor = "let odd of parseMatch(match)" style="color:black; border-style: solid">
+              {{odd.Key}} ({{fixedValue(odd.Value)}}%)
+              </ion-label>
+      </ion-item-options>
+      <ion-item-options side="left">
+          <ion-label class="master sideOdds" text-wrap text-center>
+              <div>{{match.League}}</div>
+              {{match.Home}} VS {{match.Away}}
+              <span *ngIf="match.Score">
+                {{match.Score[0]+"-"+match.Score[1]}}
+              </span>
+            </ion-label>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>

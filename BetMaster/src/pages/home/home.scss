@@ -1,0 +1,29 @@
+page-home {
+    .master {
+        background-color: #043502;
+    }
+    ion-label{
+        color : #FFC300;
+    }
+    .veryLow{
+        background-color: PaleGreen;
+    }
+    .low{
+        background-color: LightGreen;
+    }
+    .medium{
+        background-color: GreenYellow;
+    }
+    .high{
+        background-color: LawnGreen;
+    }
+    .veryHigh{
+        background-color: Lime;
+    }
+    .wrong{
+        background-color: red;
+    }
+    ion-label.sideOdds{
+        font-size: 120%
+    }
+}
