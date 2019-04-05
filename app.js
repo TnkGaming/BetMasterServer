@@ -5,7 +5,7 @@ var http = require("http");
 var DomParser = require('dom-parser');
 var parser = new DomParser();
 var teams = [];
-var lastUpdate = moment("2018-05-04T00:00:00.000");
+var lastUpdate = moment("2018-05-10T00:00:00.000");
 var dataMutex = false;
 var savedData; 
 var dataMine = require('./mining/dataMining');
